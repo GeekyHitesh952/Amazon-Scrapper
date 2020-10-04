@@ -1,6 +1,6 @@
-from tkinter import
+from tkinter import*
 class Scrapper:
-    def __init__(sf, screen);
+    def __init__(sf, screen):
         sf.scr = screen
         
         scr.title("scrapper")
@@ -25,7 +25,7 @@ class Scrapper:
        
        
     def Engine(sf,a):
-        sf.a=a*
+        sf.a=a
         import requests
         import bs4
         import sqlite3 as sl
@@ -62,5 +62,6 @@ class Scrapper:
         
                 
 scr = Tk()
-
+my_gui = Scrapper(scr)
+scr.mainloop()
 
