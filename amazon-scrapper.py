@@ -3,6 +3,10 @@ class Scrapper:
     def __init__(sf, screen);
         sf.scr = screen
         
+        # import from os
+        # scr.main
+        # protocol and body
+        
         scr.title("scrapper")
         sf.img = PhotoImage(file='C:/Users/ankit/Desktop/z.png')
         f=Frame(scr,bg="green",width=2000,height=300)
@@ -22,6 +26,8 @@ class Scrapper:
         sf.txt.config(font=("times",20,"bold"))
         c1.create_window(0,0,anchor="nw",window=sf.txt)
         f1.grid(row=1,column=0)
+        
+        # main loop
        
        
     def Engine(sf,a):
@@ -59,6 +65,8 @@ class Scrapper:
             except:
                pass
         sf.txt.config(text=var)
+        
+      # scr.mainloop()
         
                 
 scr = Tk()
